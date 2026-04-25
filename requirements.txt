@@ -1,0 +1,26 @@
+# ============================================================
+# LICITAI - Dependencias para Streamlit Community Cloud
+# Generado a partir del escaneo de app.py
+# Python recomendado: 3.11 o 3.12
+# ============================================================
+
+# --- Framework principal ---
+streamlit>=1.36.0
+streamlit-option-menu>=0.3.13
+
+# --- Manejo de datos ---
+pandas>=2.2.0
+numpy>=1.26.0
+openpyxl>=3.1.2          # Motor requerido por pandas para leer/escribir .xlsx
+
+# --- Visualización ---
+plotly>=5.22.0
+
+# --- Machine Learning (IsolationForest para detección de anomalías) ---
+scikit-learn>=1.4.0
+
+# --- Extracción de texto desde PDF (S10, presupuestos) ---
+pdfplumber>=0.11.0
+
+# --- Cliente IA (LLM) ---
+groq>=0.9.0
