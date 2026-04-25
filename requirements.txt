@@ -12,6 +12,7 @@ streamlit-option-menu>=0.3.13
 pandas>=2.2.0
 numpy>=1.26.0
 openpyxl>=3.1.2          # Motor requerido por pandas para leer/escribir .xlsx
+xlrd>=2.0.1
 
 # --- Visualización ---
 plotly>=5.22.0
